@@ -1,0 +1,6 @@
+Learning git notes / Seika 2014
+
+1 setup your name and email
+
+    $ git config --global user.name "My name"
+    $ git config --global user.email"My E-Mail address"
