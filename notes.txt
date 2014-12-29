@@ -4,3 +4,9 @@ Learning git notes / Seika 2014
 
     $ git config --global user.name "My name"
     $ git config --global user.email"My E-Mail address"
+
+2 add a file
+
+    $ git add readme.txt
+    $ git commit -m "your comments"
+
