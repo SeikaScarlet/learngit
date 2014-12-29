@@ -10,3 +10,20 @@ Learning git notes / Seika 2014
     $ git add readme.txt
     $ git commit -m "your comments"
 
+3 show logs
+
+    $ git log
+    $ git log --pretty=oneline
+
+    $ git reflog
+
+3 retrieve to the
+
+    $ git reset --hard HEAD^
+    $ git reset --hard HEAD^^
+    $ git reset --hard HEAD~100
+    $ git reset --hard "commit id"
+
+undo retrieve
+
+    $
