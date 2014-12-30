@@ -44,3 +44,24 @@ undo retrieve
     推master及其分支
     $ git push origin master
 
+
+
+5 BRANCH
+
+51 show branches
+
+    $ git branch
+
+52 create a new branch
+
+    $ git branch <newbranch>
+
+53 switch between braches
+
+    $ git checkout <branch>
+
+54 create a new branch and switch to this branch
+    $ git branch -b <newbranch>
+
+
+54 resolve conflict
