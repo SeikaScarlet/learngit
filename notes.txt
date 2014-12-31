@@ -60,8 +60,28 @@ undo retrieve
 
     $ git checkout <branch>
 
-54 create a new branch and switch to this branch
+54 create a new branch and switch to this branch = 52+53
+
     $ git branch -b <newbranch>
 
+55 MERGE & confilict
 
-54 resolve conflict
+    $ git merge <dev>
+        # merge given branch (e.g., dev) to current branch
+
+    $ git merge --no-ff -m"comments" dev
+
+
+
+56 delete a branch
+
+    $ git branch -d <dev>
+    $ git branch -D <dev>
+        # force to delete a branch
+
+57 check logs
+
+    $ git log --graph --pretty=oneline --abbrev-commit
+
+
+
