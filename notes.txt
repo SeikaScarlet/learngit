@@ -28,13 +28,11 @@ undo retrieve
 
     $
 
-
 4 regarding git hub
 41 create repo
 42 connect remote repo
 
     $ git remote add origin git@github.com:SeikaScarlet/learngit.git
-
 
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
 
@@ -43,8 +41,6 @@ undo retrieve
     $ git push -u origin master
     推master及其分支
     $ git push origin master
-
-
 
 5 BRANCH
 
@@ -71,8 +67,6 @@ undo retrieve
 
     $ git merge --no-ff -m"comments" dev
 
-
-
 56 delete a branch
 
     $ git branch -d <dev>
@@ -82,6 +76,3 @@ undo retrieve
 57 check logs
 
     $ git log --graph --pretty=oneline --abbrev-commit
-
-
-
