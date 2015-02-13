@@ -1,4 +1,4 @@
-Learning git notes / Seika 2014
+﻿Learning git notes / Seika 2014
 
 1 setup your name and email
 
@@ -41,6 +41,10 @@ undo retrieve
     $ git push -u origin master
     推master及其分支
     $ git push origin master
+
+44 clone from remot repo
+
+    $ git clone git@github.com:Yourname/repo.git
 
 5 BRANCH
 
